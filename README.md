@@ -20,7 +20,7 @@ Python implementations of Deep Learning class assignments
 - nltk=3.5
 
 ## Installation
-** conda environment setting**
+ **conda environment setting**
 
 ```
 conda create -n deep-learning-20
