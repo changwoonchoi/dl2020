@@ -183,14 +183,14 @@ def getdata_rnn_step_forward():
 	b = np.random.randn(H)
 
 	expt_next_h = np.asarray([
-		[-0.99921173, -0.99967951,  0.39127099, -0.93436299],
-	 	[ 0.84348286,  0.99996526, -0.9978802,   0.99996645],
-	  [-0.94481752, -0.71940178,  0.99994009, -0.64806562]])
+		[-0.99921173, -0.99967951, 0.39127099, -0.93436299],
+		[ 0.84348286, 0.99996526, -0.9978802, 0.99996645],
+		[-0.94481752, -0.71940178, 0.99994009, -0.64806562]])
 
 	return x, prev_h, Wx, Wh, b, expt_next_h
 
 
-def getdata_rnn_step_backward(x,h,Wx,Wh,b,dnext_h):
+def getdata_rnn_step_backward(x, h, Wx ,Wh, b, dnext_h):
 
 	fx  = lambda x: rnn_step_forward(x, h, Wx, Wh, b)[0]
 	fh  = lambda prev_h: rnn_step_forward(x, h, Wx, Wh, b)[0]
