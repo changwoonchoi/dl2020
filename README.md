@@ -28,16 +28,3 @@ conda activate deep-learning-20
 pip install -r requirements.txt
 ```
 
-## Assignment0 : Python and PyTorch Tutorial
-#### 1) Python Basics
-#### 2) Numpy & Matplotlib
-#### 3) PyTorch Tutorial
-
-## Assignment1 : Neural Network
-#### 1) Data Curation
-#### 2) NN from Scratch
-#### 3) NN with PyTorch
-
-## Assignment2 : Convolutional Neural Net
-#### 1) Image Classification
-#### 2) Image Segmentation
